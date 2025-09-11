@@ -7,6 +7,3 @@ myMean <- function(assignment2) {
 result <- myMean(assignment2)
 print(result)
 
-
-
-
