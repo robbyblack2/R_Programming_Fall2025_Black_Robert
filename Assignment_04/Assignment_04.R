@@ -10,7 +10,7 @@ FinalDecision <- c(0, 1, 0, 1, 0, 1, 0, 1, 1, 1)    # low=0, high=1
 #Define each vector in R, converting categorical strings to numeric codes (bad=1, good=0; low=0, high=1) and handling NA appropriately
 
 # "converting categorical strings to numeric codes"
-# So i coverted it to categorical string and then back again to numberic codes. 
+# So i converted it to categorical string and then back again to numeric codes. 
 # printing summary df of the categorical codes
 #Convert to categorical strings
 
