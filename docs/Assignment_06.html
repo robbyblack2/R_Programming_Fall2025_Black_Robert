@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R Programming Journal – Robert Black</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">R Programming Journal – Robert Black</h1>
+    <hr>
+    <h2>Module 6 Assignemnt</h2>
+    <div class="card mx-auto">
+        <div class="card-body">
+            <p>
+                A <- matrix(c(2, 0, 1, 3), ncol = 2)
+                B <- matrix(c(5, 2, 4, -1), ncol = 2)
+            </p>
+            <p>
+                Creates 2x2 matrix A and B.
+            </p>
+            <hr>
+            <p>
+                #Compute A + B and display the result.
+                ab_plus <- A + B
+                #Compute A - B and display the result.
+                ab_minus <- A - B
+            </p>
+            <p>
+                Adds and subtracts both matrix A and B. This results in performing the addition and subtraction operations
+                to each matrix's corresponding elements.
+            </p>
+            <p>
+                D <- diag(c(4, 1, 2, 3))
+            </p>
+            <p>
+                Createds a diagonal matrix with the values 4,1,2,3. This results in a diagonal line from right to left decending with the values in order.
+            </p>
+            <p>
+                M <- diag(3, 5)
+
+                # Replace column and row
+                M[,1] <- c(3, 2, 2, 2, 2)
+                M[1,] <- c(3, 1, 1, 1, 1)
+            </p>
+            <p>
+                This creates a replica of the given matrix. First, I created a 5x5 diagonal matrix of the value 3.
+                Then, I inserted the value 2 across the first row and 1 across the first column, preserving the 3 in the diagonal position.
+                This achieves the given matrix for the task.
+            </p>
+            <img src="assets/assignment6.png" class="img-fluid rounded-end">
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
