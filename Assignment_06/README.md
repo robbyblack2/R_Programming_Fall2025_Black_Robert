@@ -7,5 +7,6 @@ USF Class LIS4370.002F25
 ### Course ** LIS4370.002F25 **
 ### Repository for R Programming Assignments
 
-### Blog Link: https://robbyblack2.github.io/r-programming-assignments/Assignment_06.html
-### Assignment: [Assignment_05.R] (https://github.com/robbyblack2/R_Programming_Fall2025_Black_Robert.git)
+### Blog Link: https://robbyblack2.github.io/R_Programming_Fall2025_Black_Robert/Assignment_06.html
+
+### Assignment: [Assignment_06.R]  https://github.com/robbyblack2/R_Programming_Fall2025_Black_Robert/Assignment_06/assignment6.R
