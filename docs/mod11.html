@@ -12,16 +12,19 @@
         <hr>
         <div class="card mx-auto">
             <div class="card-body">
-                <h5>Original Error:</h5>
+                <h1>Original Error:</h1>
                 <img src="assets/mod11.png" class="img-fluid rounded-end">
-                <h5>Response:</h5>
+                <h1>Response:</h1>
                 <p>Error in function: tukey_multiple</p>
                 <p>The error when running this function was caused by the && evaluation. This error message as shown above was fixed by replacing the && evaluation with &. The && operation cannot be run on a vector with a length greater than 1.</p>
                 
                 <p>Output after function correction</p>
+                <hr>
                 <img src="assets/mod11.1.png" class="img-fluid rounded-end">
-                <p>Corrected Code </p>
-                 <img src="assets/mod11.2.png" class="img-fluid rounded-end">
+                <h1>Corrected Code: </h1>
+                <hr>
+                <img src="assets/mod11.2.png" class="img-fluid rounded-end">
+                <h1>Defensive:</h1>
                 <p>I added defensive checks at the entry point of the function to check and print if the incoming parameter x is a matrix, it is numeric and it is not empty</p>            
             </div>
 
